@@ -1,0 +1,185 @@
+﻿* {
+    
+    font-family: Dax-Regular;
+    padding:0;
+   
+ }
+fieldset
+{
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    height:550px;
+    width:1050px;
+    padding-bottom:1px;
+    background-color:#ffffff;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    border-radius:10px;
+    box-shadow: 10px 10px 5px #888888;
+    
+}
+ .Table
+    {
+      display: table;
+      margin-left: auto;
+      margin-right: auto;
+      border-bottom:solid 1px;
+      width: 35%;
+      text-align:center;
+      
+     
+    }
+
+ .last-Cell
+ {
+        display: table-cell;
+        border-collapse:collapse;
+        border-bottom:solid 1px;
+        border-left:solid 1px;
+        border-right:solid 1px;
+        padding:1px 5px;
+        
+;        
+ }
+
+ .Cell-user
+ {
+        display: table-cell;
+        border-collapse:collapse;
+        border-left:solid 1px;
+        border-right:solid 1px;
+        padding-bottom:12px;
+        font-size:14px;
+        font-family: Dax-Regular;
+ }
+  .Cell-pass
+ {
+        display: table-cell;
+        border-collapse:collapse;
+        border-left:solid 1px;
+        border-right:solid 1px;
+        font-size:14px;
+     
+ }
+  .shorty_cell_head
+   {
+        display: table-cell;
+        padding:73px 30px;
+        background-repeat:no-repeat;
+        background-image:url("../images/shorty_neck.png");
+        height:90px;
+        width:212px;
+    }
+   .Cell-img
+   {
+       float:right;
+       position:relative;
+       margin-top:50px;
+   }
+   .shorty_Table
+    {
+      display: table;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+  
+    .shorty_row_neck
+   {
+         display: table-row;
+      
+    }
+   .shorty_cell_neck
+   {
+        display: table-cell;
+       
+    }
+  
+    .Heading
+    {
+        display: table-row;
+        font-weight: bold;
+        text-align: center;
+     
+    }
+    .Row
+    {
+        display: table-row;
+       border-collapse:collapse;
+       background-color:#EBE9C3;
+    }
+    .Cell
+    {
+        display: table-cell;
+        border-collapse:collapse;
+        border-top:solid 1px;
+        border-left:solid 1px;
+        border-right:solid 1px;
+        padding:6px 5px;
+       
+
+    }
+        
+     .sub_Cell
+    {
+        display: table-cell;
+        border-collapse:collapse;
+        border-top:solid 1px;
+        border-left:solid 1px;
+        border-right:solid 1px;
+        padding:1px 5px;
+        
+
+    }
+
+ .button
+ {
+  font-size: 11px;
+  font-weight: bold;
+  font-family:  Arial;
+  color: #ffffff;
+  min-width: 54px;
+  height: 24px; 
+  white-space: nowrap;   
+  cursor: pointer;  
+  outline: 0 none;
+  padding: 0 10px 2px;
+  text-align: center;
+  border-radius: 2px 2px 2px 2px;
+  border: 1px solid #4980C1;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5384BE', endColorstr='#4386D7'); /* for IE */
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5384BE', endColorstr='#4386D7'); /* for IE 8 and above */
+  background: -webkit-gradient(linear, left top, left bottom, from(#5384BE), to(#4386D7)); /* for webkit browsers */
+  background: -moz-linear-gradient(top, #5384BE, #4386D7); /* for firefox 3.6+ */
+  background: -o-linear-gradient(top, #5384BE, #4386D7); /* for Opera */
+ }
+
+.button:hover
+{
+    cursor: pointer;    
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=' #85B6F0', endColorstr='#579AEB'); /* for IE */
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=' #85B6F0', endColorstr='#579AEB'); /* for IE 8 and above */
+    background: -webkit-gradient(linear, left top, left bottom, from(#85B6F0),
+    to(#579AEB)); /* for webkit browsers */
+    background: -moz-linear-gradient(top, #85B6F0, #579AEB); /* for firefox 3.6+ */
+    background: -o-linear-gradient(top, #85B6F0, #579AEB); /* for Opera */
+}
+
+.f_class
+{
+    text-align:center;
+    font-size:10px;
+    width:25%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+    background-color:rgb(208,208,208);
+}
+.txt_f
+{
+    font-size:12px;
+    font-family:dax Dax-Regular;
+}
